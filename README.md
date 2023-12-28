@@ -147,6 +147,23 @@ Il existe 8 types de données primitifs tels que byte, short, int, long, float, 
 |float|0.0|32 bits|upto 7 decimal digits|
 |double|0.0|64 bits|upto 16 decimal digits|
 
+### Non-Primitive data types:
+Primitive data types comprennent les classes, les interfaces et les tableaux ...
+### Taille et plage :
+La taille et la plage des types de données primitifs sont indépendantes de la machine et définies par la spécification Java Virtual Machine (JVM).
+### Conversion du type :
+Java prend en charge deux types de conversion : la conversion automatique de type (widening) et la conversion explicite de type (casting). Par exemple :
+```
+int intValue = 42;
+double doubleValue = intValue; // Automatic (widening) conversion
+
+double doubleValue = 42.0;
+int intValue = (int) doubleValue; // Explicit (casting) conversion
+
+```
+
+
+
 
 
 
