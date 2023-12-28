@@ -131,6 +131,23 @@ Les types de données spécifient les différentes tailles et valeurs qui peuven
 1. **Primitive data types:** Les types de données primitifs incluent booléen, char, byte, short, int, long, float et double.
 2. **Non-primitive data types :** Les types de données non primaires comprennent les classes, les interfaces et les tableaux.
 
+![data-types](https://www.softwaretestingmaterial.com/wp-content/uploads/2018/03/Data-Types.png)
+
+### Primitive data types:
+Il existe 8 types de données primitifs tels que byte, short, int, long, float, double, char et boolean. La taille de ces 8 types de données primitifs ne changera pas d’un système d’exploitation à un autre
+
+|Type|Default|Size|Range of values|     
+|----|-----|-------|--------------|      
+|boolean|false|1 bit|true, false|
+|byte|0|8 bits|-128 to 127|
+|char|\u0000|16 bits|characters representation of ASCII values 0 to 255|
+|short|0|16 bits|-32,768 to 32,767|
+|int|0|32 bits|-2,147,483,648 to 2,147,483,647|
+|long|0|64 bits|-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807|
+|float|0.0|32 bits|upto 7 decimal digits|
+|double|0.0|64 bits|upto 16 decimal digits|
+
+
 
 
 
