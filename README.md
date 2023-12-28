@@ -84,9 +84,9 @@ De cette façon, un nom ne peut être donné qu’à un emplacement de mémoire.
 * Attribution de valeur en prenant des entrées
 ### initialiser des variables en Java 
 Il peut être perçu à l’aide de 3 composantes qui sont les suivantes :
-1. Type de données : Type de données pouvant être stockées dans cette variable.
-1. variable_name : Nom donné à la variable.
-1. value : C’est la valeur initiale stockée dans la variable.
+1. **Type de données :** Type de données pouvant être stockées dans cette variable.
+1. **variable_name :** Nom donné à la variable.
+1. **value :** C’est la valeur initiale stockée dans la variable.
 ### Les règles et conventions de nommage
 1. Un nom de variable peut être composé de lettres majuscules A-Z, de lettres minuscules a-z chiffres 0-9, et de deux caractères spéciaux tels que _ underscore et $ dollar signe.
 1. Le premier caractère ne doit pas être un chiffre.
@@ -126,6 +126,10 @@ public class A
 }//end of class
 
 ```
+## Data Types Java
+Les types de données spécifient les différentes tailles et valeurs qui peuvent être stockées dans la variable. Il existe deux types de types de données en Java :
+1. **Primitive data types:** Les types de données primitifs incluent booléen, char, byte, short, int, long, float et double.
+2. **Non-primitive data types :** Les types de données non primaires comprennent les classes, les interfaces et les tableaux.
 
 
 
