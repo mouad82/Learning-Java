@@ -80,14 +80,26 @@ On peut facilement percevoir qu’en déclarant une variable, nous devons nous o
 1. datatype : Type de données pouvant être stockées dans cette variable. 
 1. name : Nom donné à la variable. 
 De cette façon, un nom ne peut être donné qu’à un emplacement de mémoire. On peut lui attribuer des valeurs de deux façons : 
-Initialisation des variables
-Attribution de valeur en prenant des entrées
+* Initialisation des variables
+* Attribution de valeur en prenant des entrées
+### initialiser des variables en Java 
+Il peut être perçu à l’aide de 3 composantes qui sont les suivantes :
+1. Type de données : Type de données pouvant être stockées dans cette variable.
+1. variable_name : Nom donné à la variable.
+1. value : C’est la valeur initiale stockée dans la variable.
+### Les règles et conventions de nommage
+1. Un nom de variable peut être composé de lettres majuscules A-Z, de lettres minuscules a-z chiffres 0-9, et de deux caractères spéciaux tels que _ underscore et $ dollar signe.
+1. Le premier caractère ne doit pas être un chiffre.
+1. Les espaces vides ne peuvent pas être utilisés dans les noms de variables.
+1. Les mots-clés Java ne peuvent pas être utilisés comme noms de variables.
+1. Les noms de variables sont sensibles à la casse.
+1. Il n’y a pas de limite sur la longueur d’un nom de variable, mais par convention, il devrait être entre 4 à 15 caractères.
+1. Les noms de variables doivent toujours exister sur le côté gauche des opérateurs d’affectation.
 ### Types de variables
 There are three types of variables in Java:
 * local variable
 * instance variable
 * static variable
-  
 #### local variable
 Une variable locale est une variable qui est déclarée dans une méthode, un constructeur ou un bloc, et qui n’est visible et accessible que dans ce périmètre. Cela signifie que vous ne pouvez pas accéder à une variable locale en dehors de la méthode, du constructeur ou du bloc dans lequel elle est déclarée.
 Les variables locales sont créées lorsque la méthode, le constructeur ou le bloc est entré et sont détruites lorsqu’elles sont sorties. Cela signifie que leurs valeurs n’existent que pour la durée de la méthode, du constructeur ou du bloc. Les variables locales doivent être initialisées avant de pouvoir être utilisées en Java.
