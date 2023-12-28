@@ -1,4 +1,7 @@
 # Learning-Java
+
+1. [General Info](#HelloWorld.java)
+   
 ## 1.Installer le Kit de développement Java (JDK) 
 > Pour Windows :
 ### Télécharger le JDK :
