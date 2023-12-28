@@ -74,8 +74,11 @@ Il existe deux types de données en Java : primitif et non primaire.
 ### Déclarer les variables en Java
 En Java, vous pouvez déclarer des variables pour stocker et manipuler des données.
 On peut facilement percevoir qu’en déclarant une variable, nous devons nous occuper de deux choses :
-
-
+1-datatype : Type de données pouvant être stockées dans cette variable. 
+1-name : Nom donné à la variable. 
+De cette façon, un nom ne peut être donné qu’à un emplacement de mémoire. On peut lui attribuer des valeurs de deux façons : 
+Initialisation des variables
+Attribution de valeur en prenant des entrées
 ### Types de variables
 There are three types of variables in Java:
 * local variable
