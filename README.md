@@ -71,6 +71,11 @@ Lorsque nous compilons un programme Java à l’aide de l’outil javac, le comp
 Une variable est un conteneur qui contient la valeur pendant l’exécution du programme Java. Une variable est affectée avec un type de données.
 Variable est un nom d’emplacement de mémoire. Il existe trois types de variables en java : local, instance et statique.
 Il existe deux types de données en Java : primitif et non primaire.
+### Déclarer les variables en Java
+En Java, vous pouvez déclarer des variables pour stocker et manipuler des données.
+On peut facilement percevoir qu’en déclarant une variable, nous devons nous occuper de deux choses :
+
+
 ### Types de variables
 There are three types of variables in Java:
 * local variable
