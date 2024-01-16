@@ -101,21 +101,21 @@ class Main {
 
 ```
 ### Sortie Attendue :
-a + b = 13
-a - b = 7
-a * b = 30
-a / b = 3
-a % b = 1
-a == b : false
-a != b : true
-a > b : true
-a < b : false
-a >= b : true
-a <= b : false
-x && y : false
-x || y : true
-!x : false
-Valeur de c après c += 2 : 7
-Le nombre est : Impair
+- * a + b = 13
+- * a - b = 7
+- * a * b = 30
+- * a / b = 3
+- * a % b = 1
+- * a == b : false
+- * a != b : true
+- * a > b : true
+- * a < b : false
+- * a >= b : true
+- * a <= b : false
+- * x && y : false
+- * x || y : true
+- * !x : false
+- * Valeur de c après c += 2 : 7
+- * Le nombre est : Impair
 
 
